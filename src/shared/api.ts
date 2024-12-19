@@ -2,7 +2,7 @@ import axios from "axios";
 import { IMovieRDO } from "./api.rdo";
 
 const axiosMoviesInstance = axios.create({
-  baseURL: "http://www.omdbapi.com",
+  baseURL: "https://www.omdbapi.com",
 });
 
 const axiosMovies = {
